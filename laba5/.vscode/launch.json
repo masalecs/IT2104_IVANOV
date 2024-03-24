@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "l5proj",
+            "cwd": "l5proj",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "l5proj (profile mode)",
+            "cwd": "l5proj",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "l5proj (release mode)",
+            "cwd": "l5proj",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
