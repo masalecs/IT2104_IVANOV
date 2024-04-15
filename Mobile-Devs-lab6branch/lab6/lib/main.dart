@@ -69,6 +69,10 @@ class MyCustomFormState extends State<MyCustomForm> {
                       },
                     )),
               ]),
+              const SizedBox(height: 50),
+              ElevatedButton(onPressed: _calculate, child: Text("Рассчитать")),
+              const SizedBox(height: 30),
+              Text(_str)
             ],
           ),
         ));
