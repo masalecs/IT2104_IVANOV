@@ -52,6 +52,23 @@ class MyCustomFormState extends State<MyCustomForm> {
                       )),
                 ],
               ),
+              Row(children: [
+                const Expanded(
+                  child: Text("Ширина(mm^2):"),
+                  flex: 1,
+                ),
+                Expanded(
+                    flex: 3,
+                    child: TextFormField(
+                      controller: f2,
+                      validator: (value) {
+                        if (value == null || value.isEmpty) {
+                          return 'Введите ширину';
+                        }
+                        return null;
+                      },
+                    )),
+              ]),
             ],
           ),
         ));
